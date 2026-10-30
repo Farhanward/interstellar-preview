@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact | Interstellar</title>
+<meta name="description" content="Tell us where you want to go. We will take it from the gate.">
+<meta name="theme-color" content="#05070d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact | Interstellar">
+<meta property="og:description" content="Tell us where you want to go. We will take it from the gate.">
+<link rel="alternate" hreflang="ar" href="ar/contact.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2305070d'/%3E%3Cpath d='M16 4l3.2 9.2L28 16l-8.8 2.8L16 28l-3.2-9.2L4 16l8.8-2.8z' fill='%23e9b866'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/bricolage-grotesque-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<script type="module" src="js/page.js"></script>
+</head>
+<body class="inner" data-page="contact" data-country="japan" data-index="4">
+<a class="skip" href="#content">Skip to content</a>
+<header class="chrome-top nav">
+  <nav class="nav-l" aria-label="Primary">
+    <a data-nav="destinations" href="destinations.html">Destinations</a>
+    <a data-nav="packages" href="packages.html">Packages</a>
+  </nav>
+  <a class="brand" href="index.html" aria-label="Interstellar home" lang="en" dir="ltr">Interstellar</a>
+  <div class="nav-r">
+    <a class="nav-link" data-nav="contact" href="contact.html">Contact</a>
+    <a class="lang-switch" href="ar/contact.html" hreflang="ar" lang="ar">عربي</a>
+    <button class="burger" type="button" data-menu-toggle aria-label="Open the route menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  </div>
+</header>
+<main id="main">
+  <section class="page-hero" aria-label="Contact">
+    <canvas id="hero-world" aria-hidden="true"></canvas>
+    <canvas id="hero-plane" aria-hidden="true"></canvas>
+    <div class="page-hero-vignette"></div>
+    <div class="page-hero-copy">
+      <p class="kicker" data-part="0.1">05 — Say hello</p>
+      <h1><span class="scene-title page-title">Contact</span></h1>
+      <p class="lead" data-part="0.3">Tell us where you want to go. We will take it from the gate.</p>
+    </div>
+  </section>
+  <div class="content" id="content">
+    <section class="block split">
+      <div>
+        <p class="label">Write to us</p>
+        <p class="prose">Tell us where you want to go, roughly when, and who is coming. We will answer with a route.</p>
+        <ul class="facts">
+          <li><span>Email</span><a href="mailto:hello@interstellar.example" dir="ltr">hello@interstellar.example</a></li>
+        </ul>
+      </div>
+      <form class="form" id="contact-form" novalidate>
+        <label>Name<input id="f-name" name="name" type="text" autocomplete="name" required></label>
+        <label>Email<input id="f-email" name="email" type="email" autocomplete="email" dir="ltr" required></label>
+        <label>Where to
+          <select id="f-dest" name="destination">
+            <option>Not sure yet</option>
+            <option>Italy</option>
+            <option>Turkey</option>
+            <option>Egypt</option>
+            <option>Thailand</option>
+            <option>Japan</option>
+            <option>Somewhere else</option>
+          </select>
+        </label>
+        <label>When<input id="f-when" name="when" type="text" placeholder="Season, month or exact dates"></label>
+        <label class="full">Message<textarea id="f-msg" name="message" rows="5" placeholder="Who is travelling, what matters most?"></textarea></label>
+        <button class="cta" type="submit">Send message</button>
+        <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
+</main>
+<footer class="site-footer inner-footer">
+  <div>
+    <p class="foot-brand" lang="en" dir="ltr">Interstellar</p>
+    <p class="foot-note">Travel beyond borders. Five stops on the map, every one of them a page.</p>
+  </div>
+  <div>
+    <h3>Pages</h3>
+    <ul><li><a href="destinations.html">Destinations</a></li><li><a href="packages.html">Packages</a></li><li><a href="experiences.html">Experiences</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+  </div>
+  <div>
+    <h3>Write to us</h3>
+    <ul><li><a href="mailto:hello@interstellar.example" dir="ltr">hello@interstellar.example</a></li><li><a href="contact.html">Plan your journey</a></li></ul>
+  </div>
+</footer>
+<p class="legal">© Interstellar. All rights reserved.</p>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Route menu" aria-hidden="true">
+  <div class="menu-head"><span class="tiny">The route · five stops</span><button class="tiny" type="button" data-menu-close>Close ✕</button></div>
+  <nav class="menu-grid" aria-label="All pages">
+    <a class="card" data-nav="destinations" href="destinations.html">
+      <canvas data-country="italy" aria-hidden="true"></canvas>
+      <span class="card-meta"><span><span class="card-no">01</span><span class="card-name">Destinations</span></span><span class="card-arrow" aria-hidden="true">→</span></span>
+    </a>
+    <a class="card" data-nav="packages" href="packages.html">
+      <canvas data-country="turkey" aria-hidden="true"></canvas>
+      <span class="card-meta"><span><span class="card-no">02</span><span class="card-name">Packages</span></span><span class="card-arrow" aria-hidden="true">→</span></span>
+    </a>
+    <a class="card" data-nav="experiences" href="experiences.html">
+      <canvas data-country="egypt" aria-hidden="true"></canvas>
+      <span class="card-meta"><span><span class="card-no">03</span><span class="card-name">Experiences</span></span><span class="card-arrow" aria-hidden="true">→</span></span>
+    </a>
+    <a class="card" data-nav="about" href="about.html">
+      <canvas data-country="thailand" aria-hidden="true"></canvas>
+      <span class="card-meta"><span><span class="card-no">04</span><span class="card-name">About</span></span><span class="card-arrow" aria-hidden="true">→</span></span>
+    </a>
+    <a class="card" data-nav="contact" href="contact.html">
+      <canvas data-country="japan" aria-hidden="true"></canvas>
+      <span class="card-meta"><span><span class="card-no">05</span><span class="card-name">Contact</span></span><span class="card-arrow" aria-hidden="true">→</span></span>
+    </a>
+  </nav>
+</div>
+<footer class="chrome-bottom">
+  <p class="tiny" id="bar-left"><b>Contact</b> · Interstellar</p>
+  <a class="cta" href="index.html">Back to the route</a>
+  <p class="tiny tiny-r">Scroll ↓</p>
+</footer>
+</body>
+</html>
